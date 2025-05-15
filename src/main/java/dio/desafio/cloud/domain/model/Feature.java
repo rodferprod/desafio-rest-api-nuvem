@@ -9,7 +9,7 @@ import jakarta.persistence.Entity;
 @Entity(name = "tb_feature")
 public class Feature extends BaseFields {
 
-    @Column(scale = 13, precision = 2)
+    @Column(precision = 13, scale = 2)
     private BigDecimal price;
 
     public BigDecimal getPrice() {
